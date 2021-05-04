@@ -621,6 +621,9 @@ article {
 .contacts li a.website {
   display: none;
 }
+.contacts li a.twitter:hover {
+  color: #1da1f2;
+}
 .contacts li a .icon {
   fill: currentColor;
   height: 1.1428rem;
