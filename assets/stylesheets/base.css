@@ -621,6 +621,11 @@ article {
 .contacts li a.website {
   display: none;
 }
+.contacts li a.twitter:hover {
+  color: #1da1f2;
+}.contacts li a.instagram:hover {
+  color: #8a3ab9;
+}
 .contacts li a .icon {
   fill: currentColor;
   height: 1.1428rem;
@@ -782,6 +787,24 @@ li.bordered > ul > details > div {
   margin-bottom: 1em;
 }
 .timeline > li p {
+  margin: 0;
+}
+
+/* Achievements */
+.achievements {
+  list-style: none outside none;
+  margin: 0;
+}
+.achievements:not(:last-child) {
+  margin-bottom: 1em;
+}
+.achievements > li::before {
+  display: none;
+}
+.achievements > li:not(:last-child) {
+  margin-bottom: 1em;
+}
+.achievements > li p {
   margin: 0;
 }
 
