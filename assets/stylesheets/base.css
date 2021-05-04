@@ -623,7 +623,8 @@ article {
 }
 .contacts li a.twitter:hover {
   color: #1da1f2;
-}.contacts li a.instagram:hover {
+}
+.contacts li a.instagram:hover {
   color: #8a3ab9;
 }
 .contacts li a .icon {
